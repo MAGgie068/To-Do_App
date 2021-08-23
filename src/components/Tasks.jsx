@@ -48,7 +48,7 @@ const AddTask = ({onCancel, onAddTask}) => {
 const TASKS_HEADER_MAPPING = {
     INBOX: 'Inbox',
     TODAY: 'Today',
-    NEXT: 'Next'
+    NEXT: 'Next 7 Days'
 }
 
 const TaskItems = ({selectedTab, tasks}) => {
